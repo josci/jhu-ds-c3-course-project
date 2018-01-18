@@ -21,7 +21,7 @@ The target of this analysis is to subset the data on the mean and standard devia
 7. save the new data set to "averaged_data.csv" in the current working directory
 
 
-###Prerequisite
+### Prerequisite
 Following libraries are necessary to run the analysis:
 
 * data.table
