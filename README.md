@@ -19,3 +19,10 @@ The target of this analysis is to subset the data on the mean and standard devia
 5. replace the foreign key for the observed activity with the corresponding label
 6. from 5. create a new dataset with averaged values for each measurement grouped by subject and activity
 7. save the new data set to "averaged_data.csv" in the current working directory
+
+
+###Prerequisite
+Following libraries are necessary to run the analysis:
+
+* data.table
+* dplyr
