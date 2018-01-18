@@ -106,4 +106,4 @@ tidy_data <- tbl_df(tidy_data())
 averaged_data <- tidy_data %>% group_by(Subject, Activity) %>% summarise_all(funs(mean))
 
 # save new dataset to file
-write.table(averaged_data, "averaged_data.csv")
+write.table(averaged_data, "averaged_data.txt", row.name=FALSE)

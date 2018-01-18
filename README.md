@@ -18,7 +18,7 @@ The target of this analysis is to subset the data on the mean and standard devia
 4. enrich the data by adding two columns (1. observed subject, 2. performed activity)
 5. replace the foreign key for the observed activity with the corresponding label
 6. from 5. create a new dataset with averaged values for each measurement grouped by subject and activity
-7. save the new dataset to "averaged_data.csv" in the current working directory
+7. save the new dataset to "averaged_data.txt" in the current working directory
 
 
 ### Prerequisite
